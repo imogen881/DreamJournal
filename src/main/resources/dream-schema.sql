@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `dream` CASCADE;
+CREATE TABLE `dream` (
+	id BIGINT AUTO_INCREMENT, 
+	date DATE, 
+	description VARCHAR(255), 
+	tag VARCHAR(255), 
+	PRIMARY KEY (id)
+);
