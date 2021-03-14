@@ -40,7 +40,7 @@ Example of user story:
 
 ### Github repositories
 
-Git was my version control system with remote repositories stored on Github. I had a separate repository for the back-end (here) and front-end (here), both following the feature branch model.
+Git was my version control system with remote repositories stored on Github. I had a separate repository for the back-end and front-end, both following the feature branch model.
 
 Back-end repository network graph:
 
@@ -72,7 +72,7 @@ The Entity Relationship Diagram (ERD) for the SQL database:
 
 Integration tests for the back-end were written using MockMVC to create mock HTTP requests to test the four key CRUD functionalities and how they interacted. The H2 database was used for testing and was cleared and then given one default entry before each test to ensure a standardised starting point.
 
-Back-end unit tests were written using JUnit and Mockito to check whether the methods themseleves were working on an individual level.
+Back-end unit tests were written using JUnit and Mockito to check whether the methods themselves were working on an individual level.
 
 Selenium was used for front-end integration tests and tested the create, update and delete methods.
 
